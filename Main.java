@@ -14,7 +14,9 @@ public class Main{
 
         // int num = 121;
 
-        System.out.println();
+        String[] strs = {"flower", "flow", "flight"};
+
+        System.out.println(longestCommonPrefix(strs));
 
     }
 
@@ -112,6 +114,10 @@ public class Main{
             if ( str1.charAt(i) == str2.charAt(i) ) {
 
                 i++;
+
+            } else {
+
+                break;
 
             }
 

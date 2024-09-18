@@ -147,14 +147,3 @@ public class LeetCode02TwoSum{
 
 // // }
 
-class TestFile{
-
-    public void test(){
-
-        int num1 = 121;
-
-        String str = Integer.toString(num1);
-
-    }
-
-}
